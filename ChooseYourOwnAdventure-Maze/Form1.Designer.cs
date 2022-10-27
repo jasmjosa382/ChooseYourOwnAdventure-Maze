@@ -98,7 +98,7 @@
             this.option2Label.Size = new System.Drawing.Size(285, 32);
             this.option2Label.TabIndex = 5;
             this.option2Label.Text = "option2Label";
-            this.option2Label.Click += new System.EventHandler(this.option2Label_Click);
+           // this.option2Label.Click += new System.EventHandler(this.option2Label_Click);
             // 
             // outputLabel
             // 
@@ -119,6 +119,7 @@
             this.option3Button.TabIndex = 7;
             this.option3Button.Text = "option3 Button";
             this.option3Button.UseVisualStyleBackColor = true;
+            this.option3Button.Click += new System.EventHandler(this.option3Button_Click);
             // 
             // option3Label
             // 
