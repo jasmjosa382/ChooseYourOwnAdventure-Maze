@@ -117,6 +117,31 @@ namespace ChooseYourOwnAdventure_Maze
             {
                 page = 1;
             }
+            else if (page == 4)
+            {
+                page = 14;
+            }
+            else if (page == 14)
+            {
+                page = 1;
+            }
+            else if (page == 15)
+            {
+                page = 16;
+            }
+            else if (page == 16)
+            {
+                page = 1;
+            }
+            else if (page == 15)
+            {
+                page = 17;
+            }
+            else if (page == 17)
+            {
+                page = 1;
+            }
+
 
             switch (page)
             {
@@ -130,6 +155,11 @@ namespace ChooseYourOwnAdventure_Maze
                     outputLabel.Text = "You've come across a cabin. Do you enter?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    break;
+                case 4:
+                    outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
+                    option1Label.Text = "Jetski";
+                    option2Label.Text = "Canoe";
                     break;
                 case 5:
                     outputLabel.Text = "You're pushed down the stairs by some ghosts while searching for supplies and die. Play Again?";
@@ -161,6 +191,11 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
+                case 11:
+                    outputLabel.Text = "Unfortunately Michael's friend Freddy Kruger wasn't far behind and killed you instead. Play again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
                 case 12:
                     outputLabel.Text = "It's broken plastic. You die from being stabbed in the back. Play Again?";
                     option1Label.Text = "Yes";
@@ -171,8 +206,23 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
-                case 11:
-                    outputLabel.Text = "Unfortunately Michael's friend Freddy Kruger wasn't far behind and killed you instead. Play again?";
+                case 14:
+                    outputLabel.Text = "You awoke the Kraken!!! Pulled underwater by its tentacles, you were drowned. Play Again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 15:
+                    outputLabel.Text = "You quietly crossed the river without problem. Quick! You hear a noise where do you hide?";
+                    option1Label.Text = "Treehouse";
+                    option2Label.Text = "Shrubs";
+                    break;
+                case 16:
+                    outputLabel.Text = "It was Slender man! He saw you climbing up the ladder and used his \"Slender Sickness\" on you and killed you. Play Again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 17:
+                    outputLabel.Text = "Slender man walks past. You quietly find your way out of the maze! You've escaped! Play Again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
@@ -287,8 +337,29 @@ namespace ChooseYourOwnAdventure_Maze
             }
             else if (page == 18)
             {
-                page = 1;
+                page = 20;
             }
+            else if (page == 14)
+            {
+                page = 20;
+            }
+            else if (page == 4)
+            {
+                page = 15;
+            }
+            else if (page == 15)
+            {
+                page = 17;
+            }
+            else if (page == 17)
+            {
+                page = 20;
+            }
+            else if (page == 16)
+            {
+                page = 20;
+            }
+
 
             switch (page)
             {
@@ -303,6 +374,11 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
+                case 4:
+                    outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
+                    option1Label.Text = "Jetski";
+                    option2Label.Text = "Canoe";
+                    break;
                 case 5:
                     outputLabel.Text = "You're pushed down the stairs by some ghosts while searching for supplies and die. Play Again?";
                     option1Label.Text = "Yes";
@@ -313,15 +389,15 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Run";
                     option2Label.Text = "Fight";
                     break;
-                case 8:
-                    outputLabel.Text = "You manage to disarm and knock him out! Would you like to switch clothes with him?";
-                    option1Label.Text = "Yes";
-                    option2Label.Text = "No";
-                    break;
                 case 7:
                     outputLabel.Text = "Your leg cramps and you fall. You feel around for a weapon which one do you grab, number 1 or 2?";
                     option1Label.Text = "1";
                     option2Label.Text = "2";
+                    break;
+                case 8:
+                    outputLabel.Text = "You manage to disarm and knock him out! Would you like to switch clothes with him?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
                     break;
                 case 9:
                     outputLabel.Text = "It's an axe! You manage to defend yourself and escape! Congratulations!!! Play Again?;";
@@ -330,6 +406,11 @@ namespace ChooseYourOwnAdventure_Maze
                     break;
                 case 10:
                     outputLabel.Text = "Disguised as Michael you were able to ask his friend Freddy Kruger where the exit was and escaped!Play Again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 11:
+                    outputLabel.Text = "Unfortunately Michael's friend Freddy Kruger wasn't far behind and killed you instead. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
@@ -343,8 +424,23 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
-                case 11:
-                    outputLabel.Text = "Unfortunately Michael's friend Freddy Kruger wasn't far behind and killed you instead. Play again?";
+                case 14:
+                    outputLabel.Text = "You awoke the Kraken!!! Pulled underwater by its tentacles, you were drowned. Play Again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 15:
+                    outputLabel.Text = "You quietly crossed the river without problem. Quick! You hear a noise where do you hide?";
+                    option1Label.Text = "Treehouse";
+                    option2Label.Text = "Shrubs";
+                    break;
+                case 16:
+                    outputLabel.Text = "It was Slender man! He saw you climbing up the ladder and used his \"Slender Sickness\" on you and killed you. Play Again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 17:
+                    outputLabel.Text = "Slender man walks past. You quietly find your way out of the maze! You've escaped! Play Again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
@@ -378,26 +474,7 @@ namespace ChooseYourOwnAdventure_Maze
             {
                 page = 4;
             }
-            else if (page == 2)
-            {
-                page = 5;
-            }
-            else if (page == 5)
-            {
-                page = 1;
-            }
-            else if (page == 6)
-            {
-                page = 7;
-            }
-            else if (page == 7)
-            {
-                page = 9;
-            }
-            else if (page == 9)
-            {
-                page = 1;
-            }
+
             switch (page)
             {
                 case 1:
@@ -411,6 +488,11 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
+                case 4:
+                    outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
+                    option1Label.Text = "Jetski";
+                    option2Label.Text = "Canoe";
+                    break;
                 case 5:
                     outputLabel.Text = "You're pushed down the stairs by some ghosts while searching for supplies and die. Play Again?";
                     option1Label.Text = "Yes";
@@ -421,15 +503,15 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Run";
                     option2Label.Text = "Fight";
                     break;
-                case 8:
-                    outputLabel.Text = "You manage to disarm and knock him out! Would you like to switch clothes with him?";
-                    option1Label.Text = "Yes";
-                    option2Label.Text = "No";
-                    break;
                 case 7:
                     outputLabel.Text = "Your leg cramps and you fall. You feel around for a weapon which one do you grab, number 1 or 2?";
                     option1Label.Text = "1";
                     option2Label.Text = "2";
+                    break;
+                case 8:
+                    outputLabel.Text = "You manage to disarm and knock him out! Would you like to switch clothes with him?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
                     break;
                 case 9:
                     outputLabel.Text = "It's an axe! You manage to defend yourself and escape! Congratulations!!! Play Again?;";
@@ -438,6 +520,11 @@ namespace ChooseYourOwnAdventure_Maze
                     break;
                 case 10:
                     outputLabel.Text = "Disguised as Michael you were able to ask his friend Freddy Kruger where the exit was and escaped!Play Again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 11:
+                    outputLabel.Text = "Unfortunately Michael's friend Freddy Kruger wasn't far behind and killed you instead. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
@@ -451,8 +538,23 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
-                case 11:
-                    outputLabel.Text = "Unfortunately Michael's friend Freddy Kruger wasn't far behind and killed you instead. Play again?";
+                case 14:
+                    outputLabel.Text = "You awoke the Kraken!!! Pulled underwater by its tentacles, you were drowned. Play Again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 15:
+                    outputLabel.Text = "You quietly crossed the river without problem. Quick! You hear a noise where do you hide?";
+                    option1Label.Text = "Treehouse";
+                    option2Label.Text = "Shrubs";
+                    break;
+                case 16:
+                    outputLabel.Text = "It was Slender man! He saw you climbing up the ladder and used his \"Slender Sickness\" on you and killed you. Play Again?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 17:
+                    outputLabel.Text = "Slender man walks past. You quietly find your way out of the maze! You've escaped! Play Again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
