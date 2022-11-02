@@ -63,21 +63,23 @@
             // 
             // option1Button
             // 
+            this.option1Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option1Button.Location = new System.Drawing.Point(12, 296);
             this.option1Button.Name = "option1Button";
             this.option1Button.Size = new System.Drawing.Size(63, 45);
             this.option1Button.TabIndex = 2;
-            this.option1Button.Text = "option1 Button";
+            this.option1Button.Text = "🎃";
             this.option1Button.UseVisualStyleBackColor = true;
             this.option1Button.Click += new System.EventHandler(this.option1Button_Click);
             // 
             // option2Button
             // 
+            this.option2Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option2Button.Location = new System.Drawing.Point(12, 365);
             this.option2Button.Name = "option2Button";
             this.option2Button.Size = new System.Drawing.Size(63, 38);
             this.option2Button.TabIndex = 3;
-            this.option2Button.Text = "option2 Button";
+            this.option2Button.Text = "👻";
             this.option2Button.UseVisualStyleBackColor = true;
             this.option2Button.Click += new System.EventHandler(this.option2Button_Click);
             // 
@@ -88,7 +90,6 @@
             this.option1Label.Name = "option1Label";
             this.option1Label.Size = new System.Drawing.Size(274, 29);
             this.option1Label.TabIndex = 4;
-            this.option1Label.Text = "option1Label";
             // 
             // option2Label
             // 
@@ -97,8 +98,6 @@
             this.option2Label.Name = "option2Label";
             this.option2Label.Size = new System.Drawing.Size(285, 32);
             this.option2Label.TabIndex = 5;
-            this.option2Label.Text = "option2Label";
-           // this.option2Label.Click += new System.EventHandler(this.option2Label_Click);
             // 
             // outputLabel
             // 
@@ -108,16 +107,16 @@
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(345, 53);
             this.outputLabel.TabIndex = 6;
-            this.outputLabel.Text = "outputLabel";
             this.outputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // option3Button
             // 
+            this.option3Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 23.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option3Button.Location = new System.Drawing.Point(12, 418);
             this.option3Button.Name = "option3Button";
             this.option3Button.Size = new System.Drawing.Size(63, 38);
             this.option3Button.TabIndex = 7;
-            this.option3Button.Text = "option3 Button";
+            this.option3Button.Text = "🦇";
             this.option3Button.UseVisualStyleBackColor = true;
             this.option3Button.Click += new System.EventHandler(this.option3Button_Click);
             // 
@@ -128,7 +127,6 @@
             this.option3Label.Name = "option3Label";
             this.option3Label.Size = new System.Drawing.Size(285, 32);
             this.option3Label.TabIndex = 8;
-            this.option3Label.Text = "option3Label";
             // 
             // Form1
             // 

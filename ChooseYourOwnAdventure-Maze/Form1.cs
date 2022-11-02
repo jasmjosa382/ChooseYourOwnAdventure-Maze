@@ -101,21 +101,9 @@ namespace ChooseYourOwnAdventure_Maze
             {
                 page = 1;
             }
-            else if (page == 3)
+            else if (page == 1)
             {
-                page = 18;
-            }
-            else if (page == 18)
-            {
-                page = 1;
-            }
-            else if (page == 3)
-            {
-                page = 19;
-            }
-            else if (page == 19)
-            {
-                page = 1;
+                page = 4;
             }
             else if (page == 4)
             {
@@ -141,6 +129,26 @@ namespace ChooseYourOwnAdventure_Maze
             {
                 page = 1;
             }
+            else if (page == 1)
+            {
+                page = 3;
+            }
+            else if (page == 3)
+            {
+                page = 18;
+            }
+            else if (page == 18)
+            {
+                page = 1;
+            }
+            else if (page == 3)
+            {
+                page = 19;
+            }
+            else if (page == 19)
+            {
+                page = 1;
+            }
 
 
             switch (page)
@@ -155,6 +163,11 @@ namespace ChooseYourOwnAdventure_Maze
                     outputLabel.Text = "You've come across a cabin. Do you enter?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    break;
+                case 3:
+                    outputLabel.Text = "You come across 2 paths one with  a creepy clown and the other with zombies.\r\nWhich path do you choose?";
+                    option1Label.Text = "Clown";
+                    option2Label.Text = "Zombies";
                     break;
                 case 4:
                     outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
@@ -319,26 +332,6 @@ namespace ChooseYourOwnAdventure_Maze
             {
                 page = 20;
             }
-            else if (page == 1)
-            {
-                page = 3;
-            }
-            else if (page == 3)
-            {
-                page = 19;
-            }
-            else if (page == 19)
-            {
-                page = 20;
-            }
-            else if (page == 3)
-            {
-                page = 18;
-            }
-            else if (page == 18)
-            {
-                page = 20;
-            }
             else if (page == 14)
             {
                 page = 20;
@@ -359,6 +352,28 @@ namespace ChooseYourOwnAdventure_Maze
             {
                 page = 20;
             }
+            else if (page == 1)
+            {
+                page = 3;
+            }
+            else if (page == 3)
+            {
+                page = 19;
+            }
+            else if (page == 19)
+            {
+                page = 20;
+            }
+            else if (page == 3)
+            {
+                page = 18;
+            }
+            else if (page == 18)
+            {
+                page = 20;
+            }
+
+
 
 
             switch (page)
@@ -373,6 +388,11 @@ namespace ChooseYourOwnAdventure_Maze
                     outputLabel.Text = "You've come across a cabin. Do you enter?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    break;
+                case 3:
+                    outputLabel.Text = "You come across 2 paths one with  a creepy clown and the other with zombies.\r\nWhich path do you choose?";
+                    option1Label.Text = "Clown";
+                    option2Label.Text = "Zombies";
                     break;
                 case 4:
                     outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
@@ -487,6 +507,11 @@ namespace ChooseYourOwnAdventure_Maze
                     outputLabel.Text = "You've come across a cabin. Do you enter?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    break;
+                case 3:
+                    outputLabel.Text = "You come across 2 paths one with  a creepy clown and the other with zombies.\r\nWhich path do you choose?";
+                    option1Label.Text = "Clown";
+                    option2Label.Text = "Zombies";
                     break;
                 case 4:
                     outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
