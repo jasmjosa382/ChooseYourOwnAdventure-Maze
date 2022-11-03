@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.titleLabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.imageBox = new System.Windows.Forms.PictureBox();
             this.option1Button = new System.Windows.Forms.Button();
             this.option2Button = new System.Windows.Forms.Button();
             this.option1Label = new System.Windows.Forms.Label();
@@ -37,7 +37,7 @@
             this.outputLabel = new System.Windows.Forms.Label();
             this.option3Button = new System.Windows.Forms.Button();
             this.option3Label = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox)).BeginInit();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -54,20 +54,21 @@
             this.titleLabel.Text = "Halloween Maze";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
+            // imageBox
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(52, 154);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(409, 191);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.imageBox.Image = global::ChooseYourOwnAdventure_Maze.Properties.Resources.Maze;
+            this.imageBox.Location = new System.Drawing.Point(53, 152);
+            this.imageBox.Margin = new System.Windows.Forms.Padding(4);
+            this.imageBox.Name = "imageBox";
+            this.imageBox.Size = new System.Drawing.Size(440, 247);
+            this.imageBox.TabIndex = 1;
+            this.imageBox.TabStop = false;
             // 
             // option1Button
             // 
             this.option1Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option1Button.Location = new System.Drawing.Point(16, 364);
-            this.option1Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.option1Button.Location = new System.Drawing.Point(16, 429);
+            this.option1Button.Margin = new System.Windows.Forms.Padding(4);
             this.option1Button.Name = "option1Button";
             this.option1Button.Size = new System.Drawing.Size(84, 55);
             this.option1Button.TabIndex = 2;
@@ -78,8 +79,8 @@
             // option2Button
             // 
             this.option2Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option2Button.Location = new System.Drawing.Point(16, 449);
-            this.option2Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.option2Button.Location = new System.Drawing.Point(16, 514);
+            this.option2Button.Margin = new System.Windows.Forms.Padding(4);
             this.option2Button.Name = "option2Button";
             this.option2Button.Size = new System.Drawing.Size(84, 47);
             this.option2Button.TabIndex = 3;
@@ -90,7 +91,7 @@
             // option1Label
             // 
             this.option1Label.ForeColor = System.Drawing.Color.White;
-            this.option1Label.Location = new System.Drawing.Point(128, 384);
+            this.option1Label.Location = new System.Drawing.Point(128, 438);
             this.option1Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.option1Label.Name = "option1Label";
             this.option1Label.Size = new System.Drawing.Size(365, 36);
@@ -99,7 +100,7 @@
             // option2Label
             // 
             this.option2Label.ForeColor = System.Drawing.Color.White;
-            this.option2Label.Location = new System.Drawing.Point(128, 457);
+            this.option2Label.Location = new System.Drawing.Point(128, 522);
             this.option2Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.option2Label.Name = "option2Label";
             this.option2Label.Size = new System.Drawing.Size(380, 39);
@@ -120,8 +121,8 @@
             // option3Button
             // 
             this.option3Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 23.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option3Button.Location = new System.Drawing.Point(16, 514);
-            this.option3Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.option3Button.Location = new System.Drawing.Point(16, 587);
+            this.option3Button.Margin = new System.Windows.Forms.Padding(4);
             this.option3Button.Name = "option3Button";
             this.option3Button.Size = new System.Drawing.Size(84, 47);
             this.option3Button.TabIndex = 7;
@@ -132,7 +133,7 @@
             // option3Label
             // 
             this.option3Label.ForeColor = System.Drawing.Color.White;
-            this.option3Label.Location = new System.Drawing.Point(128, 522);
+            this.option3Label.Location = new System.Drawing.Point(128, 587);
             this.option3Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.option3Label.Name = "option3Label";
             this.option3Label.Size = new System.Drawing.Size(380, 39);
@@ -143,7 +144,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(524, 576);
+            this.ClientSize = new System.Drawing.Size(542, 664);
             this.Controls.Add(this.option3Label);
             this.Controls.Add(this.option3Button);
             this.Controls.Add(this.outputLabel);
@@ -151,14 +152,14 @@
             this.Controls.Add(this.option1Label);
             this.Controls.Add(this.option2Button);
             this.Controls.Add(this.option1Button);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.imageBox);
             this.Controls.Add(this.titleLabel);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Halloween Maze";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -166,7 +167,7 @@
         #endregion
 
         private System.Windows.Forms.Label titleLabel;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox imageBox;
         private System.Windows.Forms.Button option1Button;
         private System.Windows.Forms.Button option2Button;
         private System.Windows.Forms.Label option1Label;

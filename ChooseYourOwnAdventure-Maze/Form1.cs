@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Media;
 
 //Jasmine Josan
 //October 2022
@@ -160,6 +161,7 @@ namespace ChooseYourOwnAdventure_Maze
                     option3Label.Text = "Go Straight";
                     option3Button.Visible = true;
                     option3Label.Visible = true;
+                    imageBox.Image = Properties.Resources.Maze;
                     break;
                 case 2:
                     outputLabel.Text = "You've come across a cabin. Do you enter?";
@@ -167,6 +169,7 @@ namespace ChooseYourOwnAdventure_Maze
                     option2Label.Text = "No";
                     option3Button.Visible = false;
                     option3Label.Visible = false;
+                    imageBox.Image = Properties.Resources.Cabin;
                     break;
                 case 3:
                     outputLabel.Text = "You come across 2 paths one with  a creepy clown and the other with zombies.\r\nWhich path do you choose?";
@@ -174,6 +177,8 @@ namespace ChooseYourOwnAdventure_Maze
                     option2Label.Text = "Zombies";
                     option3Button.Visible = false;
                     option3Label.Visible = false;
+                    imageBox.Image = Properties.Resources.TwoWayPath;
+
                     break;
                 case 4:
                     outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
@@ -417,6 +422,7 @@ namespace ChooseYourOwnAdventure_Maze
                     option3Label.Text = "Go Straight";
                     option3Button.Visible = true;
                     option3Label.Visible = true;
+                    imageBox.Image = Properties.Resources.Maze;
                     break;
                 case 2:
                     outputLabel.Text = "You've come across a cabin. Do you enter?";
@@ -424,6 +430,7 @@ namespace ChooseYourOwnAdventure_Maze
                     option2Label.Text = "No";
                     option3Button.Visible = false;
                     option3Label.Visible = false;
+                    imageBox.Image = Properties.Resources.Cabin;
                     break;
                 case 3:
                     outputLabel.Text = "You come across 2 paths one with  a creepy clown and the other with zombies.\r\nWhich path do you choose?";
@@ -431,6 +438,7 @@ namespace ChooseYourOwnAdventure_Maze
                     option2Label.Text = "Zombies";
                     option3Button.Visible = false;
                     option3Label.Visible = false;
+                    imageBox.Image = Properties.Resources.TwoWayPath;
                     break;
                 case 4:
                     outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
@@ -563,16 +571,19 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Go Left";
                     option2Label.Text = "Go Right";
                     option3Label.Text = "Go Straight";
+                    imageBox.Image = Properties.Resources.Maze;
                     break;
                 case 2:
                     outputLabel.Text = "You've come across a cabin. Do you enter?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    imageBox.Image = Properties.Resources.Cabin;
                     break;
                 case 3:
                     outputLabel.Text = "You come across 2 paths one with  a creepy clown and the other with zombies.\r\nWhich path do you choose?";
                     option1Label.Text = "Clown";
                     option2Label.Text = "Zombies";
+                    imageBox.Image = Properties.Resources.TwoWayPath;
                     break;
                 case 4:
                     outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
