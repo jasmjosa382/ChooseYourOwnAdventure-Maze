@@ -177,7 +177,7 @@ namespace ChooseYourOwnAdventure_Maze
                     option2Label.Text = "Zombies";
                     option3Button.Visible = false;
                     option3Label.Visible = false;
-                    imageBox.Image = Properties.Resources.TwoWayPath;
+                    //imageBox.Image = Properties.Resources.TwoWayPath;
 
                     break;
                 case 4:
@@ -438,7 +438,7 @@ namespace ChooseYourOwnAdventure_Maze
                     option2Label.Text = "Zombies";
                     option3Button.Visible = false;
                     option3Label.Visible = false;
-                    imageBox.Image = Properties.Resources.TwoWayPath;
+                   //imageBox.Image = Properties.Resources.TwoWayPath;
                     break;
                 case 4:
                     outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
@@ -583,7 +583,7 @@ namespace ChooseYourOwnAdventure_Maze
                     outputLabel.Text = "You come across 2 paths one with  a creepy clown and the other with zombies.\r\nWhich path do you choose?";
                     option1Label.Text = "Clown";
                     option2Label.Text = "Zombies";
-                    imageBox.Image = Properties.Resources.TwoWayPath;
+                  //imageBox.Image = Properties.Resources.TwoWayPath;
                     break;
                 case 4:
                     outputLabel.Text = "You come across a big pond. The only way to cross is by canoe or jetski. What do you choose?";
