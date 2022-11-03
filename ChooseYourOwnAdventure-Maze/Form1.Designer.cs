@@ -46,27 +46,30 @@
             this.titleLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.titleLabel.Font = new System.Drawing.Font("Engravers MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.titleLabel.Location = new System.Drawing.Point(-4, -1);
+            this.titleLabel.Location = new System.Drawing.Point(-5, -1);
+            this.titleLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(398, 58);
+            this.titleLabel.Size = new System.Drawing.Size(530, 71);
             this.titleLabel.TabIndex = 0;
             this.titleLabel.Text = "Halloween Maze";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(39, 125);
+            this.pictureBox1.Location = new System.Drawing.Point(52, 154);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(307, 155);
+            this.pictureBox1.Size = new System.Drawing.Size(409, 191);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // option1Button
             // 
             this.option1Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option1Button.Location = new System.Drawing.Point(12, 296);
+            this.option1Button.Location = new System.Drawing.Point(16, 364);
+            this.option1Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.option1Button.Name = "option1Button";
-            this.option1Button.Size = new System.Drawing.Size(63, 45);
+            this.option1Button.Size = new System.Drawing.Size(84, 55);
             this.option1Button.TabIndex = 2;
             this.option1Button.Text = "🎃";
             this.option1Button.UseVisualStyleBackColor = true;
@@ -75,9 +78,10 @@
             // option2Button
             // 
             this.option2Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option2Button.Location = new System.Drawing.Point(12, 365);
+            this.option2Button.Location = new System.Drawing.Point(16, 449);
+            this.option2Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.option2Button.Name = "option2Button";
-            this.option2Button.Size = new System.Drawing.Size(63, 38);
+            this.option2Button.Size = new System.Drawing.Size(84, 47);
             this.option2Button.TabIndex = 3;
             this.option2Button.Text = "👻";
             this.option2Button.UseVisualStyleBackColor = true;
@@ -86,35 +90,40 @@
             // option1Label
             // 
             this.option1Label.ForeColor = System.Drawing.Color.White;
-            this.option1Label.Location = new System.Drawing.Point(96, 312);
+            this.option1Label.Location = new System.Drawing.Point(128, 384);
+            this.option1Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.option1Label.Name = "option1Label";
-            this.option1Label.Size = new System.Drawing.Size(274, 29);
+            this.option1Label.Size = new System.Drawing.Size(365, 36);
             this.option1Label.TabIndex = 4;
             // 
             // option2Label
             // 
             this.option2Label.ForeColor = System.Drawing.Color.White;
-            this.option2Label.Location = new System.Drawing.Point(96, 371);
+            this.option2Label.Location = new System.Drawing.Point(128, 457);
+            this.option2Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.option2Label.Name = "option2Label";
-            this.option2Label.Size = new System.Drawing.Size(285, 32);
+            this.option2Label.Size = new System.Drawing.Size(380, 39);
             this.option2Label.TabIndex = 5;
             // 
             // outputLabel
             // 
             this.outputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.ForeColor = System.Drawing.Color.White;
-            this.outputLabel.Location = new System.Drawing.Point(26, 57);
+            this.outputLabel.Location = new System.Drawing.Point(35, 70);
+            this.outputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(345, 53);
+            this.outputLabel.Size = new System.Drawing.Size(460, 65);
             this.outputLabel.TabIndex = 6;
             this.outputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.outputLabel.Click += new System.EventHandler(this.outputLabel_Click);
             // 
             // option3Button
             // 
             this.option3Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 23.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option3Button.Location = new System.Drawing.Point(12, 418);
+            this.option3Button.Location = new System.Drawing.Point(16, 514);
+            this.option3Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.option3Button.Name = "option3Button";
-            this.option3Button.Size = new System.Drawing.Size(63, 38);
+            this.option3Button.Size = new System.Drawing.Size(84, 47);
             this.option3Button.TabIndex = 7;
             this.option3Button.Text = "🦇";
             this.option3Button.UseVisualStyleBackColor = true;
@@ -123,17 +132,18 @@
             // option3Label
             // 
             this.option3Label.ForeColor = System.Drawing.Color.White;
-            this.option3Label.Location = new System.Drawing.Point(96, 424);
+            this.option3Label.Location = new System.Drawing.Point(128, 522);
+            this.option3Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.option3Label.Name = "option3Label";
-            this.option3Label.Size = new System.Drawing.Size(285, 32);
+            this.option3Label.Size = new System.Drawing.Size(380, 39);
             this.option3Label.TabIndex = 8;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(393, 468);
+            this.ClientSize = new System.Drawing.Size(524, 576);
             this.Controls.Add(this.option3Label);
             this.Controls.Add(this.option3Button);
             this.Controls.Add(this.outputLabel);
@@ -144,6 +154,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.titleLabel);
             this.ForeColor = System.Drawing.Color.Black;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Halloween Maze";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -669,5 +669,10 @@ namespace ChooseYourOwnAdventure_Maze
                     break;
             }
         }
+
+        private void outputLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
