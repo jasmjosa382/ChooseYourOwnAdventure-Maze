@@ -158,11 +158,15 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Go Left";
                     option2Label.Text = "Go Right";
                     option3Label.Text = "Go Straight";
+                    option3Button.Visible = true;
+                    option3Label.Visible = true;
                     break;
                 case 2:
                     outputLabel.Text = "You've come across a cabin. Do you enter?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    option3Button.Visible = false;
+                    option3Label.Visible = false;
                     break;
                 case 3:
                     outputLabel.Text = "You come across 2 paths one with  a creepy clown and the other with zombies.\r\nWhich path do you choose?";
@@ -411,6 +415,8 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Go Left";
                     option2Label.Text = "Go Right";
                     option3Label.Text = "Go Straight";
+                    option3Button.Visible = true;
+                    option3Label.Visible = true;
                     break;
                 case 2:
                     outputLabel.Text = "You've come across a cabin. Do you enter?";
