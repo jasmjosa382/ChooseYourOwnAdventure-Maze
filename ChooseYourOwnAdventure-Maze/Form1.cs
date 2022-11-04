@@ -12,7 +12,7 @@ using System.Media;
 
 //Jasmine Josan
 //October 2022
-//Choose your own adventure halloween maze game
+//Choose your own adventure game: Halloween Maze
 
 namespace ChooseYourOwnAdventure_Maze
 {
@@ -730,11 +730,6 @@ namespace ChooseYourOwnAdventure_Maze
                 default:
                     break;
             }
-        }
-
-        private void outputLabel_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

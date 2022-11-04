@@ -110,7 +110,6 @@
             this.outputLabel.Size = new System.Drawing.Size(345, 53);
             this.outputLabel.TabIndex = 6;
             this.outputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.outputLabel.Click += new System.EventHandler(this.outputLabel_Click);
             // 
             // option3Button
             // 
