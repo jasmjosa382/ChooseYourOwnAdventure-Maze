@@ -194,6 +194,8 @@ namespace ChooseYourOwnAdventure_Maze
                     option3Button.Visible = false;
                     option3Label.Visible = false;
                     imageBox.Image = Properties.Resources.Stairs;
+                    SoundPlayer lose = new SoundPlayer(Properties.Resources.lose);
+                    lose.Play();
                     break;
                 case 6:
                     outputLabel.Text = "A dark figure stands a few feet away from you. Oh no, It's Michael Myers! Do you try to fight him off or run away? ";
@@ -472,6 +474,8 @@ namespace ChooseYourOwnAdventure_Maze
                     option3Button.Visible = false;
                     option3Label.Visible = false;
                     imageBox.Image = Properties.Resources.Stairs;
+                    SoundPlayer lose = new SoundPlayer(Properties.Resources.lose);
+                    lose.Play();
                     break;
                 case 6:
                     outputLabel.Text = "A dark figure stands a few feet away from you. Oh no, It's Michael Myers! Do you try to fight him off or run away? ";
@@ -631,6 +635,8 @@ namespace ChooseYourOwnAdventure_Maze
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     imageBox.Image = Properties.Resources.Stairs;
+                    SoundPlayer lose = new SoundPlayer(Properties.Resources.lose);
+                    lose.Play();
                     break;
                 case 6:
                     outputLabel.Text = "A dark figure stands a few feet away from you. Oh no, It's Michael Myers! Do you try to fight him off or run away? ";

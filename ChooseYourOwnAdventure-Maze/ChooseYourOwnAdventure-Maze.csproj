@@ -153,5 +153,14 @@
   <ItemGroup>
     <None Include="Resources\NeutralMichael.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\270467__littlerobotsoundfactory__jingle-lose-00.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\402095__inspectorj__dramatic-organ-a.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\521642__fupicat__winharpsichord.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
