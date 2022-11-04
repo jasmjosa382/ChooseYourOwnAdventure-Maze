@@ -81,13 +81,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\147172730-spooky-silhouette-girl-at-night-with-smoke-in-background-horror-woman-holding-old-axe-selective-focu.webp" />
     <None Include="Resources\haunted-e1507047142702.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1cb0b7585d68fbb67a24798e41637c38.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\536-768x576.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\101d30bfe18796b97d5f0dd84b5b74c4.jpg" />
@@ -97,6 +95,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\TwoWayPath.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\536-768x576.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClownInMaze.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stairs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pond.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreddyKruger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MichaelMyers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NiceFreddy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Safe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kraken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slenderman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\River.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeutralFreddy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FallenDown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Axe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Disarmed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Disguise.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Escape.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeutralMichael.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
